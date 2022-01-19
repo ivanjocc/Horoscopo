@@ -22,7 +22,7 @@ const App = () => {
 		<BrowserRouter>
 			<Layout>
 				<Routes>
-					<Route exact path="/" element={<Home />} />
+					<Route exact path="/Horoscopo" element={<Home />} />
 					<Route exact path="/acuario" element={<Acuario />} />
 					<Route exact path="/aries" element={<Aries />} />
 					<Route exact path="/cancer" element={<Cancer />} />

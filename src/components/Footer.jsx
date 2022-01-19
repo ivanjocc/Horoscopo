@@ -10,7 +10,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<div className="col-izq">
-				<a href="/">
+				<a href="/Horoscopo">
 					<img src={logo} alt="" className="logo-2" />
 				</a>
 			</div>

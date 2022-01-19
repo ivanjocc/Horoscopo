@@ -14,7 +14,7 @@ const Header = () => {
 
 	return (
 		<nav>
-			<a href="/">
+			<a href="/Horoscopo">
 				<img src={logo} alt="" className="logo" />
 			</a>
 			<div className="nav-bar">
