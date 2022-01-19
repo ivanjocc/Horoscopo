@@ -1,0 +1,29 @@
+.bienvenida{
+	margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.horoscopo{
+	display: flex;
+	margin: 0 auto;
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+  
+.horoscopo{
+    -webkit-animation: 10s rotate linear infinite;
+    animation: 10s rotate linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+@media screen and (max-width: 700px){
+  .bienvenida{
+    img{
+      width: 300px;
+    }
+  }
+}

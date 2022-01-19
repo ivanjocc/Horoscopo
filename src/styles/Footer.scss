@@ -1,0 +1,43 @@
+footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-bottom: 10px;
+
+	.col-izq{
+		margin: 0 auto;
+		
+		.logo-2 {
+			width: 200px;
+			height: 200px;
+			display: flex;
+			margin: 0 auto;
+		}
+	}
+	
+	.col-der{
+		margin: 0 auto;
+
+		.social{
+			position: relative;
+			top: 50%;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 30px;
+				
+			a{
+				font-size: 2rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 500px){
+	footer{
+		grid-template-columns: 1fr;
+
+		.col-der{
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}
